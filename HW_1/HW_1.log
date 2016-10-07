@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 OCT 2016 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 OCT 2016 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,8 +627,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) (./HW1.m)
-(./Rayleigh.m
+) (./HW1.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -638,58 +645,61 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-)
-<Fig_1.pdf, id=18, 548.83174pt x 420.91663pt>
+[2] [3]) (./Rayleigh.m) [4] <Fig_1.pdf, id=27, 548.83174pt x 420.91663pt>
 File: Fig_1.pdf Graphic file (type pdf)
- <use Fig_1.pdf>
-Package pdftex.def Info: Fig_1.pdf used on input line 83.
-(pdftex.def)             Requested size: 219.52881pt x 168.36366pt.
- [2 <./Fig_1.pdf>] <ring_down.pdf, id=42, 543.64598pt x 437.47823pt>
-File: ring_down.pdf Graphic file (type pdf)
- <use ring_down.pdf>
-Package pdftex.def Info: ring_down.pdf used on input line 90.
-(pdftex.def)             Requested size: 217.45453pt x 174.98817pt.
 
-<Step_Test.pdf, id=43, 552.30211pt x 432.88765pt>
+<use Fig_1.pdf>
+Package pdftex.def Info: Fig_1.pdf used on input line 84.
+(pdftex.def)             Requested size: 219.52881pt x 168.36366pt.
+ <ring_down.pdf, id=28, 543.64598pt x 437.47823pt>
+File: ring_down.pdf Graphic file (type pdf)
+
+<use ring_down.pdf>
+Package pdftex.def Info: ring_down.pdf used on input line 91.
+(pdftex.def)             Requested size: 217.45453pt x 174.98817pt.
+ <Step_Test.pdf, id=29, 552.30211pt x 432.88765pt>
 File: Step_Test.pdf Graphic file (type pdf)
- <use Step_Test.pdf>
+
+<use Step_Test.pdf>
 Package pdftex.def Info: Step_Test.pdf used on input line 98.
 (pdftex.def)             Requested size: 220.91692pt x 173.15198pt.
+ [5 <./Fig_1.pdf> <./ring_down.pdf>] [6 <./Step_Test.pdf>]
+<Lauterborn_Compare.pdf, id=99, 563.90546pt x 440.22206pt>
+File: Lauterborn_Compare.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+<use Lauterborn_Compare.pdf>
+Package pdftex.def Info: Lauterborn_Compare.pdf used on input line 110.
+(pdftex.def)             Requested size: 225.55818pt x 176.0857pt.
+ [7 <./Lauterborn_Compare.pdf>] (./Runge_Kutta.m)
+[8] <Compare_All.pdf, id=130, 600.10944pt x 474.18977pt>
+File: Compare_All.pdf Graphic file (type pdf)
+ <use Compare_All.pdf>
+Package pdftex.def Info: Compare_All.pdf used on input line 146.
+(pdftex.def)             Requested size: 300.05399pt x 237.0943pt.
 
- []
-
-[3 <./ring_down.pdf> <./Step_Test.pdf>] [4] (./HW_1.aux) ) 
+[9 <./Compare_All.pdf>] (./HW_1.aux) ) 
 Here is how much of TeX's memory you used:
- 15935 strings out of 493089
- 298657 string characters out of 6134842
- 457801 words of memory out of 5000000
- 19132 multiletter control sequences out of 15000+600000
+ 15966 strings out of 493089
+ 299087 string characters out of 6134842
+ 502986 words of memory out of 5000000
+ 19158 multiletter control sequences out of 15000+600000
  9984 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,407b,1714s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on HW_1.pdf (4 pages, 331910 bytes).
+ 55i,12n,54p,407b,2275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb>
+Output written on HW_1.pdf (9 pages, 478579 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 188 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
