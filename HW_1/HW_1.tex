@@ -104,7 +104,7 @@ iii. Step drive: Set $\dot{R}$(t=0) = 0; R(t=0) = $R_0$; $P_{\infty}$ = $P^e_\in
 \newpage
 \item Benchmark your code against a previously published solution, using their parameter values.  You may choose anything nontrivial* in the literature of the past 50 years, but be careful to compare results of the same equation at the same parameters, since there are a variety of Rayleigh-Plesset equations.
 \noindent\rule{14cm}{0.4pt}\\
-I used the parameters laid out in the paper by Lauterborn. The figure below shows the comparison of the results. Not sure why they do not align properly. It may be an incorrect use of his parameters in the papers or a sign difference in the equation - will double check later and update. 
+I used the parameters laid out in the paper by Lauterborn. The figure below shows the comparison of the results. Not sure why they do not align properly. It may be an incorrect use of his parameters in the papers or misinterpretation of his constants used. Nonetheless, the general shape of the solution seems to be present.
 
 \begin{figure}[h]
 \includegraphics[scale = 0.4]{Lauterborn_Compare}
@@ -146,6 +146,14 @@ i. Compare results of all there developments of R(t)
 \includegraphics[scale = 0.5]{Compare_All}
 \centering
 \caption{Comparison of all developments of R(t)}
+\end{figure}
+
+\newpage
+Due to the form of the solution based on equation 3 having a highly oscillating form during the first couple steps of the ring-down, the solutions do not, for all the cases explored agree within $10\%$. However, it can be said that after about $1x10^{-4}$ seconds in time, the solutions do agree within $10\%$ of each other. The final value of the bubble radius for all cases also shows minimal difference. It is certain that they are indeed arriving at the same bubble radius after long progression in time, but do not necessarily agree within the aforementioned time span. The figure below shows the results of the code when the initial radius was changed to $10^{-6}$ m.
+\begin{figure}[h]
+\includegraphics[scale = 0.5]{Ro_small}
+\centering
+\caption{Comparison of all developments of R(t) for initial radius of $10^-6$ m}
 \end{figure}
 \end{enumerate}
 \end{document}
